@@ -1,0 +1,119 @@
+.container {
+    display: flex;
+flex-flow: row wrap;
+border: solid red;
+flex-direction: column-reverse;
+}
+
+.container .container-filho {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    color: darkblue;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .container-filho3{
+    width: 100px;
+    height: 100px;
+    background-color:salmon;
+    color: darkblue;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .container-filho4{
+    width: 100px;
+    height: 100px;
+    background-color:antiquewhite;
+    color: darkblue;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .container-filho5{
+    width: 100px;
+    height: 100px;
+    background-color:yellowgreen;
+    color: darkblue;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .container-filho6{
+    width: 100px;
+    height: 100px;
+    background-color:pink;
+    color: darkblue;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1 .container-filho amarello{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container1{
+    display: flex;
+    height: 500px;
+}
+.container1 .navegacao{
+    background-color: blueviolet;
+    height: 500px;
+    font-size: 80px;
+}
+.container1 .outros{
+ display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.container1 .outros .cabecalho{
+   background-color: blue
+   height: 150px;
+}
+.container .outros .corpo{
+    display: flex;
+   
+}
+.container1 .outros .corpo .conteudo{
+    background-color: yellowgreen;
+}
+
+.container1 .corpo{
+    background-color: red;
+}
+.container1 .barraLateral{
+    background-color: orange
+}
